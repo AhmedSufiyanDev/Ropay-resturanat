@@ -1,0 +1,24 @@
+#right_panel {
+    /*position: absolute;*/
+    /*width: 96px;*/
+    padding: 40px;
+    height: 100%;
+    left: 20px;
+    /*resize: horizontal;*/
+    background-color: #f0f0ff;
+    /*padding: 20px;*/
+    width: 300px;
+    resize: both;
+    overflow: auto;
+
+}
+
+/*#right_panel::after {*/
+/*    content: '';*/
+/*    background-color: #ccc;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    width: 4px;*/
+/*    height: 100%;*/
+/*    cursor: ew-resize;*/
+/*}*/

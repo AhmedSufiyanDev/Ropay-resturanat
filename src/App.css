@@ -1,0 +1,231 @@
+/*.MuiOutlinedInput-input{*/
+/*  padding: 10px !important;*/
+/*}*/
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-bold {
+    font-weight: bold !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+
+}
+
+.text-doc-none {
+    text-decoration: none !important;
+}
+
+.mouse-pointer {
+    cursor: pointer !important;
+}
+
+.app-logo-text {
+    font-size: 20px;
+    font-weight: bold !important;
+    color: #fff !important;
+    margin: 0 !important;
+    padding:  0 !important;
+    letter-spacing: 1px;
+}
+
+
+
+
+@keyframes SplashLegacy_movingBg__ZoxO1 {
+    0% {
+        background-position: 0 300px
+    }
+
+    to {
+        background-position: 500px 0
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App-header {
+    /*background-color: #282c34;*/
+    background-color: indianred;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Mui-error {
+    border: none !important;
+}
+
+.MuiInput-underline::before, .MuiInput-underline::after {
+
+    border: none !important;
+}
+.bread-crumbs-container{
+    background: #fcfafa !important;
+    border-bottom: 1px solid #e3ebf6 !important;
+    margin-top: -1px!important;
+}
+.sticky-header {
+    position: fixed;
+    /*width: -moz-available!important;*/
+    padding: 12px 20px;
+    z-index: 100;
+    background: white;
+}
+.MuiDataGrid-toolbarContainer{
+    padding: 15px 4px !important;
+}
+.MuiDataGrid-columnHeader {
+    /*background: red !important;*/
+    font-weight: bold !important;
+    max-width: 180px!important;
+}
+
+.MuiDataGrid-columnsContainer {
+    border: none!important;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+    padding: 0 !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+    font-weight: bold !important;
+    padding: 0 !important;
+}
+
+.MuiDataGrid-columnSeparator {
+    display: none !important;
+}
+
+.MuiDataGrid-cell {
+    /*background: #0d0d39 !important;*/
+}
+
+/*.MuiDataGrid-root*/
+.MuiDataGrid-cell {
+    /*background: red;*/
+    border: none !important;
+}
+
+.MuiDataGrid-cell--textLeft {
+    text-align: left !important;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+nav-item:last-child {
+    margin-right: 0px !important;
+}
+.nav-link {
+    background: #fff;
+    border-radius: 19px;
+    border: 1px solid #e3ebf6;
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 400;
+    padding: .5rem 1rem;
+}
+.active-nav-link {
+    color: #fff;
+    background-color: #f58220;
+    border-color: #f58220;
+}
+
+.add-search {
+    padding-top: 0px;
+    max-width: 220x;
+    margin-right: 16px;
+}
+
+.add-search-wrap {
+    background: transparent;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.add-search-wrap input {
+    height: 30px;
+    margin: 0;
+    padding: 4px 30px 4px 16px;
+    background-color: #e9f0f9;
+    border-radius: 19px;
+    color: #6c757d;
+    font-size: 14px;
+    /*width: 100%;*/
+    display: inline-block;
+    border: none;
+}
+
+.add-search-wrap input:focus {
+    outline: none;
+}
+
+.add-search-wrap button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.add-icon {
+    display: flex;
+    border-radius: 19px;
+}
+.add-icon .two-iconst {
+    display: inline-block;
+    border-radius: 19px;
+}
+.add-icon .cn_item {
+    text-align: center;
+    border-radius: 12px;
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    line-height: 45px;
+}
+.add-icon.two-iconst .cn_item.first-ic {
+    background: #dafeee;
+    border-radius: 19px 0px 0px 19px;
+}
+.add-icon.two-iconst .cn_item.second-ic {
+    background: #f58220;
+    border-radius: 0px 19px 19px 0px;
+    margin-left: -4px;
+}
+.add-icon .cn_item.second-ic {
+    background: #f58220;
+    border-radius: 19px;
+    margin-left: 0px;
+}
+
+.small-loading{
+    width:18px !important;
+    height:18px !important;
+} 

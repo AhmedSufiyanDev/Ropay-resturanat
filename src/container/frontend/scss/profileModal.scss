@@ -1,0 +1,115 @@
+.First-div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-Profile{
+    // color: #010E16;
+    color:var(--text-color-dark);
+    text-align: center;
+    margin: 54px 0px 37px 0px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.thumb-profileuser {
+    position: relative;
+}
+.thumb-profileicon {
+    position: absolute;
+    right: -30px;
+    top: -70px;
+}
+.user-image{
+    object-fit: cover;
+    border-radius: 120px;
+// background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+width: 120px;
+height: 120px;
+flex-shrink: 0;
+}
+.paper-scroller-padd {
+    padding: 0px 32px 24px;
+}
+.profile-form-field {
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 24px 0px rgba(27, 107, 197, 0.1);
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+   .edit-icon {
+        position: absolute;
+        top: 56%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        right: 21px;
+        cursor: pointer;
+    }
+.profile-form-field .label {
+    // color: #979797;
+    color: var(--text-color-gray);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; /* 100% */
+}
+.profile-form-field .value {
+    // color: #010E16;
+    color:var(--text-color-dark);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 6px;
+}
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-login .social-div {
+    display: flex;
+    height: 14px;
+}
+.social-login .social-div p {
+    margin-left: 11px;
+    margin: 0px 0px 0px 11px;
+    position: relative;
+    top: -3px;
+}
+.social-p {
+    // color: #1B6BC5;
+    color:var(--btn-primary-blue-bg);
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    margin-right: 20px !important;
+}
+.connected-acc {
+    // color: #010E16;
+    color:var(--text-color-dark);
+    // font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.58px;
+    letter-spacing: 0.08px;
+    margin: 20px 0px 15px 0px;
+}
+
+@media(max-width:767px) {
+    .my-Profile {
+        margin: 38px 0px 25px 0px;
+    }
+}

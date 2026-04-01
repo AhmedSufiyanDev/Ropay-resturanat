@@ -1,0 +1,372 @@
+:root{
+    --body-family:"Outfit";
+    --text-color-white:#fff;
+    --text-color-blue:#0065D1;
+    --text-color-light-blue:#0E97FF;
+    --text-color-dark:#010E16;  
+    --text-color-gray:#979797;
+    --text-color-dark-gray:#4C4E55;
+    --text-color-light-gray:#919191;
+    --text-color-med-gray:#7B7B7B;
+
+    --btn-primary-blue-bg:#1B6BC5;
+    
+    //header.scss
+    --border-color:#E8E8E8;
+    --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+    --menu-item-btn-black: #000;
+
+    --sidebar-list-span-text-color:#212121;
+    --sidebar-background:rgba(14, 151, 255, 0.04);
+    --emp-corner-mobile-border-top:#e0dada;
+    --emp-corner-mobile-btn:rgb(14, 151, 255);
+    --login-btn-background-color:rgb(0, 0, 0);
+    --login-btn-text:rgb(255, 255, 255);
+    --header-navbar-subpage-border:#f3f3f3;
+
+    --color-gainsboro:#D8DCDF;
+    --navbar-transparent:rgba(0, 0, 0, .69);
+
+    //footer
+    --color-quick-linkft:#333;
+    --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+    --footer-nav-color :rgba(255, 255, 255, 0.5);
+    --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+    //login-modal 
+    --text-color-light-slate-gray:#808D9E;
+    --paragraph--text-dim-gray:#636363;
+    --text-color-med-dark-gray:#374957;
+    --text-color-smoky:#5F5C5C;
+    --bg-color-havelock-blue:#1B2132;
+    
+    //dropdown
+    --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+    --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+    --content-color-brick-pink:#cc3852;
+
+    //cart.scss
+    --span-text-color-rick-black:#02050F;
+    --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+    --card-div-gains-boro:#DCE1E5;
+
+    //adddetailitems.scss
+    --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+    //cardDetail.scss
+    --textfield-color:#ccc;
+    --dotedline-color:#D9D9D9;
+    --text-color-philippine-silver:#B3B3B3;
+    
+}
+
+// :root{
+//     --text-color-white:#fff;
+//     --text-color-blue:#0065D1;
+//     --text-color-light-blue:#0E97FF;
+//     --text-color-dark:#010E16;  
+//     --text-color-gray:#979797;
+//     --text-color-dark-gray:#4C4E55;
+//     --text-color-light-gray:#919191;
+//     --text-color-med-gray:#7B7B7B;
+
+//     --btn-primary-blue-bg:#1B6BC5;
+    
+//     //header.scss
+//     --border-color:#E8E8E8;
+//     --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+//     --menu-item-btn-black: #000;
+
+//     --sidebar-list-span-text-color:#212121;
+//     --sidebar-background:rgba(14, 151, 255, 0.04);
+//     --emp-corner-mobile-border-top:#e0dada;
+//     --emp-corner-mobile-btn:rgb(14, 151, 255);
+//     --login-btn-background-color:rgb(0, 0, 0);
+//     --login-btn-text:rgb(255, 255, 255);
+//     --header-navbar-subpage-border:#f3f3f3;
+
+//     --color-gainsboro:#D8DCDF;
+//     --navbar-transparent:rgba(0, 0, 0, .69);
+
+//     //footer
+//     --color-quick-linkft:#333;
+//     --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+//     --footer-nav-color :rgba(255, 255, 255, 0.5);
+//     --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+//     //login-modal 
+//     --text-color-light-slate-gray:#808D9E;
+//     --paragraph--text-dim-gray:#636363;
+//     --text-color-med-dark-gray:#374957;
+//     --text-color-smoky:#5F5C5C;
+//     --bg-color-havelock-blue:#1B2132;
+    
+//     //dropdown
+//     --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+//     --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+//     --content-color-brick-pink:#cc3852;
+
+//     //cart.scss
+//     --span-text-color-rick-black:#02050F;
+//     --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+//     --card-div-gains-boro:#DCE1E5;
+
+//     //adddetailitems.scss
+//     --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+//     //cardDetail.scss
+//     --textfield-color:#ccc;
+//     --dotedline-color:#D9D9D9;
+//     --text-color-philippine-silver:#B3B3B3;
+    
+// }
+
+[data-theme="1"]{
+    --text-color-white:#fff;
+    --text-color-blue:#0065D1;
+    --text-color-light-blue:#0E97FF;
+    --text-color-dark:#010E16;  
+    --text-color-gray:#979797;
+    --text-color-dark-gray:#4C4E55;
+    --text-color-light-gray:#919191;
+    --text-color-med-gray:#7B7B7B;
+
+    --btn-primary-blue-bg:#1B6BC5;
+    
+    //header.scss
+    --border-color:#E8E8E8;
+    --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+    --menu-item-btn-black: #000;
+
+    --sidebar-list-span-text-color:#212121;
+    --sidebar-background:rgba(14, 151, 255, 0.04);
+    --emp-corner-mobile-border-top:#e0dada;
+    --emp-corner-mobile-btn:rgb(14, 151, 255);
+    --login-btn-background-color:rgb(0, 0, 0);
+    --login-btn-text:rgb(255, 255, 255);
+    --header-navbar-subpage-border:#f3f3f3;
+
+    --color-gainsboro:#D8DCDF;
+    --navbar-transparent:rgba(0, 0, 0, .69);
+
+    //footer
+    --color-quick-linkft:#333;
+    --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+    --footer-nav-color :rgba(255, 255, 255, 0.5);
+    --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+    //login-modal 
+    --text-color-light-slate-gray:#808D9E;
+    --paragraph--text-dim-gray:#636363;
+    --text-color-med-dark-gray:#374957;
+    --text-color-smoky:#5F5C5C;
+    --bg-color-havelock-blue:#1B2132;
+    
+    //dropdown
+    --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+    --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+    --content-color-brick-pink:#cc3852;
+
+    //cart.scss
+    --span-text-color-rick-black:#02050F;
+    --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+    --card-div-gains-boro:#DCE1E5;
+
+    //adddetailitems.scss
+    --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+    //cardDetail.scss
+    --textfield-color:#ccc;
+    --dotedline-color:#D9D9D9;
+    --text-color-philippine-silver:#B3B3B3;
+    
+}
+
+[data-theme="2"]{
+    --text-color-white:#fff;
+    --text-color-blue:#DEC663;
+    --text-color-light-blue:#0E97FF;
+    --text-color-dark:#010E16;  
+    --text-color-gray:#979797;
+    --text-color-dark-gray:#4C4E55;
+    --text-color-light-gray:#919191;
+    --text-color-med-gray:#7B7B7B;
+
+    --btn-primary-blue-bg:#DEC663;
+    
+    //header.scss
+    --border-color:#E8E8E8;
+    --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+    --menu-item-btn-black: #000;
+
+    --sidebar-list-span-text-color:#212121;
+    --sidebar-background:rgba(14, 151, 255, 0.04);
+    --emp-corner-mobile-border-top:#e0dada;
+    --emp-corner-mobile-btn:rgb(14, 151, 255);
+    --login-btn-background-color:rgb(0, 0, 0);
+    --login-btn-text:rgb(255, 255, 255);
+    --header-navbar-subpage-border:#f3f3f3;
+
+    --color-gainsboro:#D8DCDF;
+    --navbar-transparent:rgba(0, 0, 0, .69);
+
+    //footer
+    --color-quick-linkft:#333;
+    --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+    --footer-nav-color :rgba(255, 255, 255, 0.5);
+    --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+    //login-modal 
+    --text-color-light-slate-gray:#808D9E;
+    --paragraph--text-dim-gray:#636363;
+    --text-color-med-dark-gray:#374957;
+    --text-color-smoky:#5F5C5C;
+    --bg-color-havelock-blue:#1B2132;
+    
+    //dropdown
+    --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+    --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+    --content-color-brick-pink:#cc3852;
+
+    //cart.scss
+    --span-text-color-rick-black:#02050F;
+    --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+    --card-div-gains-boro:#DCE1E5;
+
+    //adddetailitems.scss
+    --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+    //cardDetail.scss
+    --textfield-color:#ccc;
+    --dotedline-color:#D9D9D9;
+    --text-color-philippine-silver:#B3B3B3;
+    
+}
+
+[data-theme="3"]{
+    --text-color-white:#fff;
+    --text-color-blue:#3B6930;
+    --text-color-light-blue:#0E97FF;
+    --text-color-dark:#010E16;  
+    --text-color-gray:#979797;
+    --text-color-dark-gray:#4C4E55;
+    --text-color-light-gray:#919191;
+    --text-color-med-gray:#7B7B7B;
+
+    --btn-primary-blue-bg:#3B6930;
+    
+    //header.scss
+    --border-color:#E8E8E8;
+    --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+    --menu-item-btn-black: #000;
+
+    --sidebar-list-span-text-color:#212121;
+    --sidebar-background:rgba(14, 151, 255, 0.04);
+    --emp-corner-mobile-border-top:#e0dada;
+    --emp-corner-mobile-btn:rgb(14, 151, 255);
+    --login-btn-background-color:rgb(0, 0, 0);
+    --login-btn-text:rgb(255, 255, 255);
+    --header-navbar-subpage-border:#f3f3f3;
+
+    --color-gainsboro:#D8DCDF;
+    --navbar-transparent:rgba(0, 0, 0, .69);
+
+    //footer
+    --color-quick-linkft:#333;
+    --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+    --footer-nav-color :rgba(255, 255, 255, 0.5);
+    --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+    //login-modal 
+    --text-color-light-slate-gray:#808D9E;
+    --paragraph--text-dim-gray:#636363;
+    --text-color-med-dark-gray:#374957;
+    --text-color-smoky:#5F5C5C;
+    --bg-color-havelock-blue:#1B2132;
+    
+    //dropdown
+    --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+    --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+    --content-color-brick-pink:#cc3852;
+
+    //cart.scss
+    --span-text-color-rick-black:#02050F;
+    --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+    --card-div-gains-boro:#DCE1E5;
+
+    //adddetailitems.scss
+    --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+    //cardDetail.scss
+    --textfield-color:#ccc;
+    --dotedline-color:#D9D9D9;
+    --text-color-philippine-silver:#B3B3B3;
+    
+}
+
+[data-theme="4"]{
+    --text-color-white:#fff;
+    --text-color-blue:#FF453A;
+    --text-color-light-blue:#0E97FF;
+    --text-color-dark:#010E16;  
+    --text-color-gray:#979797;
+    --text-color-dark-gray:#4C4E55;
+    --text-color-light-gray:#919191;
+    --text-color-med-gray:#7B7B7B;
+
+    --btn-primary-blue-bg:#FF453A;
+    
+    //header.scss
+    --border-color:#E8E8E8;
+    --boxshadow-color:rgba(27, 107, 197, 0.15);
+
+    --menu-item-btn-black: #000;
+
+    --sidebar-list-span-text-color:#212121;
+    --sidebar-background:rgba(14, 151, 255, 0.04);
+    --emp-corner-mobile-border-top:#e0dada;
+    --emp-corner-mobile-btn:rgb(14, 151, 255);
+    --login-btn-background-color:rgb(0, 0, 0);
+    --login-btn-text:rgb(255, 255, 255);
+    --header-navbar-subpage-border:#f3f3f3;
+
+    --color-gainsboro:#D8DCDF;
+    --navbar-transparent:rgba(0, 0, 0, .69);
+
+    //footer
+    --color-quick-linkft:#333;
+    --footer-nav-ul-color:rgba(255, 255, 255, 0.5);
+    --footer-nav-color :rgba(255, 255, 255, 0.5);
+    --footer-copyrights-color:rgba(255, 255, 255, 0.5);
+
+    //login-modal 
+    --text-color-light-slate-gray:#808D9E;
+    --paragraph--text-dim-gray:#636363;
+    --text-color-med-dark-gray:#374957;
+    --text-color-smoky:#5F5C5C;
+    --bg-color-havelock-blue:#1B2132;
+    
+    //dropdown
+    --dropdown-box-shadow-one-color: rgba(46, 41, 51, 0.08);
+    --dropdown-box-shadow-2nd-color:rgba(71, 63, 79, 0.16);
+    --content-color-brick-pink:#cc3852;
+
+    //cart.scss
+    --span-text-color-rick-black:#02050F;
+    --card-div-box-shadow:rgba(27, 107, 197, 0.10);
+    --card-div-gains-boro:#DCE1E5;
+
+    //adddetailitems.scss
+    --hr-style-text-color:rgba(27, 107, 197, 0.30);
+
+    //cardDetail.scss
+    --textfield-color:#ccc;
+    --dotedline-color:#D9D9D9;
+    --text-color-philippine-silver:#B3B3B3;
+    
+}

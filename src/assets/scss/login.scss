@@ -1,0 +1,38 @@
+.MuiAvatar-colorDefault{
+  background-color: #003D94 !important;
+}
+.main-container {
+  height: 100vh;
+  background: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.login-form-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .MuiFormControl-marginNormal {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .MuiInputBase-formControl {
+    border-radius: 35px;
+    color: white;
+    background: #1E1F22;
+
+    input {
+      padding: 10px 12px;
+    }
+  }
+}
+
+//MuiInputBase-root MuiOutlinedInput-root
+.input-label {
+  color: white !important;
+  text-transform: capitalize;
+}

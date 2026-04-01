@@ -1,0 +1,58 @@
+.splash-bg {
+    position: relative;
+    height: 100vh;
+    // width: 100vw;
+    transition: all 1s ease;
+    background-image: linear-gradient(180deg, #0079AD 0%, #009DE0 50.5%, #00567A 100%);
+    z-index: 1001;
+}
+.center-item {
+    max-width: 540px !important;
+    margin: 0px auto;
+}
+.splash-anim {
+    // height: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: 50%;
+    background-size: 250px auto;
+    animation-name: SplashLegacy_movingBg__ZoxO1;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+.logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,#fff 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
+@keyframes SplashLegacy_movingBg__ZoxO1 {
+    0% {
+        background-position: 0 300px
+    }
+
+    to {
+        background-position: 500px 0
+    }
+}

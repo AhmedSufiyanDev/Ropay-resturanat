@@ -1,0 +1,16 @@
+@import "scss/login";
+@import "scss/sidebar";
+@import "scss/main";
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mask1 {
+  //-webkit-mask-image: url('./userIcon.png');
+  mask-image: url('./images/userIcon.png');
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  //width: 60px;
+}
+.MuiContainer-fixed {
+  max-width: 600px !important;
+}

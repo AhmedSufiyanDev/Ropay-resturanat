@@ -1,0 +1,54 @@
+// .MuiTypography-body1 {
+//     /* font-family: 'Lexend', sans-serif !important; */
+//     font-family: "Lexend", sans-serif !important;
+// }
+// body {
+//     margin: 0 !important;
+//     /* font-family: 'Lexend', sans-serif !important; */
+//     font-family: "Lexend", sans-serif !important;
+//     font-style: normal;
+//     background: #fff !important;
+// }
+// a,p.h1,h2,h3,h4,h5,h6, span, button {
+//     font-family: "Lexend", sans-serif !important;
+// }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    --font-Messiri: "El Messiri", sans-serif !important;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0 !important;
+    font-family: var(--body-family), sans-serif !important;
+    font-style: normal;
+}
+.MuiTypography-body1 {
+    font-family: var(--body-family), sans-serif !important;
+}
+.MuiTypography-body2 {
+    font-family: var(--body-family), sans-serif !important;
+}
+.MuiTypography-h1, .MuiTypography-h2, .MuiTypography-h3, .MuiTypography-h4, .MuiTypography-h6, .MuiTypography-h5 {
+    font-family: var(--body-family), sans-serif !important;
+}
+.MuiAppBar-colorPrimary {
+    // background-color: #1B2132 !important;
+}
+.MuiButton-textPrimary {
+    // color: #1B2132 !important;
+}
+.main-root-center{
+    height: 100%;
+    max-width: 540px;
+    margin: 0px auto;
+    /* background-size: 100% 100%; */
+    background-repeat: repeat;
+    background-position: center top;
+}

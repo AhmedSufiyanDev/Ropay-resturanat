@@ -1,0 +1,29 @@
+.upload {
+  button {
+    padding-left: 0px;
+
+    .MuiButton-label {
+      text-transform: none;
+      color: #0176FF;
+      font-weight: 700;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  p {
+    margin: 0px;
+  }
+}
+
+.file{
+  //background-color: orange;
+  z-index: 20;
+  opacity: 0;
+  position: absolute !important;
+  top: 0%;
+  left: 0;
+  max-width: 90%;
+}

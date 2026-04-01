@@ -1,0 +1,198 @@
+
+.position-relative {
+    position: relative;
+}
+
+.menu-cart-box-style {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    align-items: normal !important;
+    margin-left: 0px;
+    margin-right: 12px;
+    border: 1px solid #F3F3F3;
+    height: 104px !important;
+}
+
+.menu-cart-box-style-rtl {
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+}
+
+.menu-cart-box-style img {
+    width: 84px;
+    height: 84px;
+    border-radius: 12px;
+}
+.menu-cart-box-style .no-img {
+    width: 84px;
+    height: 84px;
+    background: #efefef;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card-content-divs {
+    flex-grow: 1;
+    padding: 0px 6px 0px 14px !important;
+    display: flex;
+    flex-flow: column;
+}
+.item-price-value {
+    display: flex;
+    justify-content: space-between;
+    flex-grow:1
+}
+.item-price-value-rtl {
+    flex-direction: row-reverse;
+}
+.itm-dtl-price {
+    color: var(--text-color-blue) !important;
+    align-content: end;
+    flex-grow: 1;
+}
+.price-span{
+    // color: #0065D1;
+    color: var(--text-color-blue) !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.price-tag-span{
+    color: var(--text-color-blue) !important;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cart-name-text-detail p {
+    // color: #979797 !important;
+    columns: var(--text-color-gray) !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    word-break: break-word;
+    margin-bottom: 5px;
+    margin-top: 9px;
+}
+
+.cart-name-text-detail .p-rtl {
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.cart-name-text-detail h2 {
+    color: var(--text-color-dark) !important;
+    margin: 4px 0px 0px 0px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-style: normal;
+    line-height: normal !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    word-break: break-word;
+    width:180px;
+}
+
+.cart-name-text-detail .h2-rtl {
+    text-align: right;
+    margin: -8px 0px 0px 0px;
+}
+
+.no-of-item{
+    cursor: pointer;
+    width: 40px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    // border: 1px solid #1B6BC5;
+    border:1px solid var(--btn-primary-blue-bg);
+    background: #FFF;
+}
+.no-of-item .MuiInput-underline:after, .no-of-item .MuiInput-underline:before {
+    display: none;
+}
+.no-of-item .MuiSelect-select.MuiSelect-select {
+    border-radius: 7px;
+    border: 1px solid #1B6BC5;
+    background: #FFF;
+    padding: 2px 3px;
+}
+.no-of-item-rtl{
+    border-radius: 12px;
+    border: 1px solid #1B6BC5;
+    background: #FFF;
+    padding: 2px 18px 2px 9px;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.img-full{
+    width: 100% !important;
+}
+.object-fit{
+    object-fit: cover;
+}
+.positionAbsolute{
+    position: absolute;
+}
+.positionRelative{
+    position: relative;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.display-block {
+    display: block!important;
+}
+.left-right-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.text-center {
+    text-align: center!important;
+}
+.cover-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+.cursor-button{
+    cursor: pointer;
+}
+.bredcum {
+    margin-top:30px;
+}
+.bredcum li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    // color: #7B7B7B;
+    color: var(--text-color-med-gray);
+}
+.bredcum li a {
+    text-decoration: none;
+    // color: inherit;
+    color: var(--text-color-med-gray);
+}
+.bredcum-active{
+    // color: #0E97FF;
+    color:var(--text-color-light-blue);
+}

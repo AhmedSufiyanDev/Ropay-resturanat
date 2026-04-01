@@ -1,0 +1,109 @@
+@import "../../assets/variables";
+
+.table-title-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  //padding: 14px 10px 2px 10px;
+
+}
+
+.table-title {
+  color: $primaryGreen;
+  font-size: 30px !important;
+  text-transform: capitalize;
+  margin: 10px 0 !important;
+}
+
+.add-icon {
+  //color: $primaryBlue;
+  //border: 1px solid $primaryBlue;
+  //border-radius: 30px;
+  //padding: 6px 12px;
+}
+
+
+.bg-red {
+  background: red;
+  //color:red;
+}
+.color-red {
+  color: red;
+}
+
+.bg-green {
+  background: #098b51;
+}
+.color-green {
+  color: #098b51;
+}
+
+.bg-purple {
+  background: mediumpurple;
+}
+.color-purple {
+  color: mediumpurple;
+}
+
+.bg-lightgray {
+  background:  #e0031f;
+}
+.color-lightgrey {
+  color: rgba(145, 18, 18, 0.94);
+}
+
+.bg-lightpink {
+  background:lightpink;
+}
+.color-lightpink {
+  color: #e0031f;
+}
+
+.bg-lightskyblue {
+  background:lightskyblue;
+}
+.color-lightskyblue {
+  color: lightskyblue;
+}
+
+.bg-orange {
+  background: orange;
+}
+.color-orange {
+  color: orange;
+}
+
+.bg-light {
+  background:rgba(106, 236, 177, 0.43);
+  //color: $primaryGreen;
+}
+
+.table-more-option-btn-container {
+  //display: flex!important;
+  //justify-content: center;
+  position: relative;
+
+  .button-container {
+    position: absolute;
+    padding: 10px 0;
+    top: 50px;
+    right: 67%;
+    background: #fcfafa;
+    border: 1px solid #fcfafa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+
+    .edit, .contract, .services {
+      padding: 5px 20px 5px 10px;
+      color: #4B686E;
+
+      &:hover {
+        background: #e3ebf6;
+      }
+    }
+  }
+}
